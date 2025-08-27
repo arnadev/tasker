@@ -101,7 +101,7 @@ const TaskDetailModal = ({taskDetail, setTaskDetail, handleUpdateTask, handleDel
 
   return (
     <div className="fixed w-screen h-screen top-0 left-0 bg-black/30 backdrop-blur-sm flex justify-center items-center p-4 z-50">
-      <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+      <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[70vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 rounded-t-lg">
           <div className="flex justify-between items-start">
